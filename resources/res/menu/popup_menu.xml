@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/item1" android:title="Filter Apps"/>
+    <item android:id="@+id/item2" android:title="Join Discord"/>
+    <item android:id="@+id/item3" android:title="Donate"/>
+</menu>
