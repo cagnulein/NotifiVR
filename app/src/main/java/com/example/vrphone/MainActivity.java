@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         iView2 = findViewById(R.id.iView2);
 
         Intent serviceIntent = new Intent(this, DeviceFinderService.class);
-        //startService(serviceIntent);
+        startService(serviceIntent);
 
         if (sharedPreferences.getBoolean("running", false)) {
             Log.d("StaiyQ", "1");
